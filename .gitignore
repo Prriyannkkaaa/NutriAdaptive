@@ -1,0 +1,32 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Frontend
+node_modules/
+dist/
+build/
+
+# OS and IDE
+.DS_Store
+.idea/
+
+# Logs
+*.log
+
+# Local application database
+backend/*.db
+backend/*.sqlite
+backend/*.sqlite3
+
+# Python cache files
+**/__pycache__/
